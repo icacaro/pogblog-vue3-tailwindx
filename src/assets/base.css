@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Press+Start+2P&family=Roboto:wght@300&display=swap');
+
+
+@layer base {
+    html {
+        font-family: 'Kablammo', cursive;
+        font-family: 'Press Start 2P', cursive;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container {
+        max-width: 600px!important;
+    }
+  }
