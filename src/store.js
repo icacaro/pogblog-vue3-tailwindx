@@ -1,8 +1,7 @@
 import { reactive } from 'vue'
 
 const store = reactive({
-    posts: []
+  posts: []
 })
 
-export {store}
-
+export {store};
